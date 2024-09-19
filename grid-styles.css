@@ -1,0 +1,9 @@
+*{box-sizing: border-box;}
+body{background-color: grey;}
+main{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+gap: 1rem;}
+section{background-color: rgb(188, 147, 85); border: 3px dotted grey;}
+h1, h2{color: aqua;}
+

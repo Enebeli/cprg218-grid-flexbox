@@ -1,0 +1,7 @@
+*{box-sizing: border-box;}
+/* Using * means do it for all */
+main{display: flex;}
+section{flex: 1;}
+#appetizers{flex: 2;}
+/* Using # and a section id after it applies the code to that id */
+#appetizers, #mains, #desserts{background-color: bisque;}
